@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+   background-image: linear-gradient(to bottom right, rgb(148 88 222), rgb(255 150 106));
+}
+
+.table-container{
+    width: 30vw;
+    height: 75vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#resultado{
+    font-size: larger;
+}
+
+
+.botao{
+    height: 3rem;
+    width: 3rem;
+    border: none;
+}
+
+#btnColorOne{
+    background-color: rgb(245 225 253);
+    width: 100%;
+    height: 100%;
+}
+
+#btnColorTwo{
+    background-color: rgb(247 207 98);
+    width: 100%;
+    height: 100%;
+}
+
+#btnColorTree{
+    background-color: rgb(237 237 255);
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .table-container{
+        width: 70vw;
+        height: 80vh;
+    }
+}
